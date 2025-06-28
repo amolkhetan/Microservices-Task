@@ -1,0 +1,33 @@
+version: "3"
+services:
+  user-service:
+    image: user-service
+    build:
+      context: ./user-service
+      dockerfile: Dockerfile
+    ports:
+    - "3000:3000"
+
+  product-service:
+    image: product-service
+    build:
+      context: ./product-service
+      dockerfile: Dockerfile
+    ports:
+    - "3001:3001"
+
+  order-service:
+    image: order-service
+    build:
+      context: ./order-service
+      dockerfile: Dockerfile
+    ports:
+    - "3002:3002"
+
+  gateway-service:
+    image: gateway-service
+    build:
+      context: ./gateway-service
+      dockerfile: Dockerfile
+    ports:
+    - "3003:3003"
