@@ -106,7 +106,9 @@ kubectl apply -f .\k8s\ingress\ingress.yaml (file is present in repo)
 
 now add IP address and DNS in /etc/hosts
 
+Ingress is not working as expected, debugging in progress
 
+<img width="1381" height="200" alt="image" src="https://github.com/user-attachments/assets/60028af6-7b11-4c86-97bb-e481fcb96ff4" />
 
 
 
